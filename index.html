@@ -4,32 +4,77 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Rock paper scissor</title>
-<style>
+            <style>
+           body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #460037;
+        }
 
-img{
-          margin:flex;
-}
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
 
-          
-</style>
+        img {
+            width: 120px; /* Increased by 20% */
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
 
+        .text-container {
+            max-width: 540px; /* Reduced by 10% */
+        }
 
-                    
+        h1 {
+            color: #401f7c;
+            font-size: 25px; /* Adjusted font size */
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 16px; /* Adjusted font size */
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px; /* Adjusted font size */
+            line-height: 1.6;
+        }
+
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #88a2bb;
+            color: #4b0a0a;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #000000;
+        }
+            </style>
           </head>
           <body>
-<img src="https://mfiles.alphacoders.com/988/988758.jpg">
-
-
-                    
-<h1> HELLO ! </H1>
-          <BR><h3>AND WELCOME TO SIMPLE AND EASY WEBSITE OF ROCK,PAPER GAME</h3>
-            <BR> <H3>TO PLAY THIS GAME SIMPLY CLICK ROCK,SCISSOR,OR PAPPER BUTTON</H3>
-                <BR>    <H3>AND THE RESULT WILL SHOW IN POP UP</H3>
-                  <BR>  <H3>I KNOW IT'S PRETTY BOARING ANYWAY ENJOY </H3>
-                    
-           <BR> <p> <h1>lets play ROCK,PAPER,SCISSOR</h1></p>
-
-          
+          <div class="container"><img src="https://mfiles.alphacoders.com/988/988758.jpg" alt="Rock, Paper, Scissors">
+          <p><h1> HELLO ! </H1>
+              <BR><h3>WELCOME TO SIMPLE A WEBSITE OF ROCK,PAPER GAME</h3>
+                <H3>TO PLAY THIS GAME SIMPLY CLICK ON ROCK,SCISSOR,OR PAPPER BUTTON</H3>
+                    <H3>AND THE RESULT WILL SHOW IN POP UP</H3>
+                      <H3>I KNOW IT'S PRETTY BOARING ANYWAY ENJOY </H3>
+                     </p>  </div> 
+            <p> <h1>lets play ROCK,PAPER,SCISSOR</h1></p>
+            
             <button onclick="
             const randomNumber = Math.random();
 
@@ -53,9 +98,9 @@ img{
           if (computerMove ==='Rock') {
             result ='Tie';
           } else if(computerMove === 'Paper'){
-            result = 'you Lose';
+            result = 'HEHE KAWATA WON';
           } else if (computerMove === 'Scissor'){
-            result = 'you Win';
+            result = 'you WON NOOB';
           }
 
           alert(`you picked Rock.computer picked ${computerMove} . ${result}`);
@@ -83,11 +128,11 @@ console.log(computerMove);
 let result = '';
 
 if (computerMove ==='Rock') {
-  result ='You Win';
+  result ='You WON NOOB';
 } else if(computerMove === 'Paper'){
   result = 'Tie';
 } else if (computerMove === 'Scissor'){
-  result = 'you Lose';
+  result = 'HEHE KAWATA WON';
 }
 
 alert(`you picked Paper.computer picked ${computerMove} . ${result}`);
@@ -114,13 +159,13 @@ console.log(computerMove);
 let result = '';
 
 if (computerMove ==='Rock') {
-  result ='You Lose';
+  result ='HEHE KAWATA WON';
 } else if(computerMove === 'Paper'){
-  result = 'you Win';
+  result = 'you WON NOOB';
 } else if (computerMove === 'Scissor'){
   result = 'Tie';
 }
-alert(`you picked Scissor.computer picked ${computerMove} . ${result}`);
+alert(`you picked Scissor.Samir picked ${computerMove} . ${result}`);
   ">Scissor</button>
 
 </script>
